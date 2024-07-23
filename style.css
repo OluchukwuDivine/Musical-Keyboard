@@ -221,3 +221,9 @@ body{
     font-weight: bold;
     margin-left: 7px;
 }
+
+@media screen and (max-width: 768px) {
+    .container{
+        rotate: 90deg;
+    }
+}
