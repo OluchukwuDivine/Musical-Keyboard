@@ -6,6 +6,7 @@
 body{
     width: 100vw;
     height: 100vh;
+    background: azure;
 }
 .container{
     width: 100%;
@@ -223,7 +224,11 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    .container{
-        rotate: 90deg;
+    body{
+        height: 100vh;
+        width: 100vw;
     }
+     .piano-body{
+        rotate: 90deg;
+     }
 }
